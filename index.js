@@ -11,7 +11,7 @@ const app = express();
 
 
 connectDB()
-const allowedOrigins = ["http://localhost:5173","https://js.stripe.com","*"];
+const allowedOrigins = ["http://localhost:5173","https://js.stripe.com","*","https://cravenow2-373n.vercel.app/"];
 
 app.use(cors({
   origin: allowedOrigins,
